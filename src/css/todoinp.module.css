@@ -1,0 +1,42 @@
+.todoInputbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between input and button */
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.todoInputbody input {
+    flex: 1; /* Allows the input field to take up available space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.todoInputbody input:focus {
+    border-color: #4a00e0; /* Change border color when focused */
+    box-shadow: 0 0 5px rgba(74, 0, 224, 0.5);
+}
+
+.todoInputbody button {
+    background-color: #4a00e0;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.todoInputbody button:hover {
+    background-color: #3a00c0;
+    transform: scale(1.05); /* Slight zoom effect */
+}
