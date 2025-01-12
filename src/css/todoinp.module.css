@@ -26,7 +26,7 @@
 }
 
 .todoInputbody button {
-    background-color: #4a00e0;
+    background-color: #16FF00;
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
@@ -37,6 +37,6 @@
 }
 
 .todoInputbody button:hover {
-    background-color: #3a00c0;
+    background-color: #16FF00;
     transform: scale(1.05); /* Slight zoom effect */
 }
