@@ -18,7 +18,7 @@ const TodoInput = ({addTodo}) => {
             placeholder='type your checklist'
             value={task}
             onChange={(e)=>setTask(e.target.value)}/>
-            <button>ADD+</button>
+            <button>+</button>
         </form>
     </div>
   )
