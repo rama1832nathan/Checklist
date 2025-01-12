@@ -12,7 +12,7 @@ const TodoList = ({ todos, removeTodo }) => {
             <button className={`${List.btn}`} onClick={() => removeTodo(index)}>Delete</button>
           </li>
         ))}
-      </ul>):((<h4 style={{color:'white'}}>Seems lonely here!..</h4>))
+      </ul>):((<h4 style={{color:'white'}}>Seems lonely here !!! &#128529;</h4>))
   }
     </div>
   );
